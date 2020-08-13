@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chatting Space</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Joyce's Chatting Room</h1>
+    </header>
+    <div class="content-container">
+      <div class="video-chat-container">
+        <h2 class="talk-info" id="talking-with-info">
+          Share URL to begin video chatting
+        </h2>
+        <div class="video-container">
+          <video autoplay muted id="localVideo" id="local-video"></video>
+          <video autoplay id="remoteVideo" id="remote-video"></video>
+        </div>
+      </div>
+    </div>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script> 
+    <script src="script.js"></script>
+  </body>
+</html>
