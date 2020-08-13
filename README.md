@@ -47,6 +47,6 @@ You can run this application locally simply by open up the `index.html` page on 
 - Make sure you have Python on your machine:
   - To check if Python is installed, run `python --version`
   - Otherwise, install Python
-- Open up your command line and run `python -m SimpleHTTP 3000`
+- Open up your command line and run `python -m SimpleHTTPServer 3000`
 - Now your app can be opened on `localhost:3000`
 - Additionally, you can invite others to join you by using ngrok
